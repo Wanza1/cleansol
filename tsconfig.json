@@ -1,0 +1,17 @@
+{
+  "include": ["client/src/**/*", "shared/**/*", "server/**/*"],
+  "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
+ "compilerOptions": {
+  "target": "ESNext", 
+  "module": "ESNext",  
+  "jsx": "react-jsx",  
+  "strict": true,  
+  "esModuleInterop": true,  
+  "skipLibCheck": true,  
+  "forceConsistentCasingInFileNames": true,  
+  "moduleResolution": "node",
+  "baseUrl": "./",
+  "paths": {
+    "@/*": ["src/*"]  
+  }
+}
